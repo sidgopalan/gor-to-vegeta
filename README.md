@@ -1,5 +1,4 @@
-Gor To Vegeta
-=============
+# Gor To Vegeta
 
 Generates a [Vegeta](https://github.com/tsenart/vegeta) attack based on a [GOR](https://github.com/buger/gor) output file.
 
@@ -13,3 +12,7 @@ This tool is useful to load-test a service. For instance:
 
 	``gor-to-vegeta --input-file ./requests.gor --target-host "localhost:8081" --duration 120s --rate 50``
 
+## Installation
+
+    $ go get github.com/sidgopalan/gor-to-vegeta
+    $ go install github.com/sidgopalan/gor-to-vegeta
